@@ -13,13 +13,7 @@ namespace cslab1_1
             double entropy = 0;//entropy
             double fileinfo = 0.0;//info quantity
 
-           // string path = @"E:\Igor\ripkaBase64.bz2";
-           // string path = @"E:\Igor\katBase64.bz2";
-            //string path = @"E:\Igor\pciBase64.bz2";
-
-            string path = @"E:\Igor\kat.txt";
-            //string path = @"E:\Igor\pci.txt";
-            // string path = @"E:\Igor\ripka.txt";
+            string path = @"E:\Igor\katBase64bz2.txt";
 
             string text = "";
             double len = 0.0;
@@ -27,7 +21,7 @@ namespace cslab1_1
             //Console.InputEncoding = Encoding.UTF8;
             //Console.OutputEncoding = Encoding.UTF8;
 
-            using (StreamReader sr = new StreamReader(path, Encoding.Default))
+            using (StreamReader sr = new StreamReader(path, Encoding.UTF8))
             {
                 text = sr.ReadToEnd();
                 sr.Close();

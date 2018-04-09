@@ -109,26 +109,27 @@ namespace Lab1._2
         static void Main(string[] args)
         {
             byte[] data = new byte[0];
-            string path = @"E:/Igor/";
-            string file = @"pci.txt";
-            //string file = @"ripka.txt";
-            //string file = @"kat.txt";
+            string path = @"E:\Igor\";
+            string file = @"pci.bz2";
+           //string file = @"ripka.bz2";
+            //string file = @"kat.txt.bz2";
 
 
             // data = Encoding.UTF8.GetBytes(File.ReadAllText(path+file, Encoding.UTF8));
-            data = Encoding.Default.GetBytes(File.ReadAllText(path + file, Encoding.Default));
+            data = Encoding.UTF8.GetBytes(File.ReadAllText(path + file, Encoding.Default));
 
 
             char[] value = Base64Encoding(data);
-            Console.WriteLine(value);
+            Console.WriteLine(path + file);
 
             string sValue = "";
             for (int i = 0; i < value.LongLength; i++)
             {
                 sValue += value[i].ToString();
             }
-
-            File.WriteAllText(path+"pciBase64.txt", sValue, Encoding.Default);
+            string nfilename = @"pciBase64bz.txt";
+            File.WriteAllText(path+ nfilename, sValue, Encoding.Default);
+            Console.WriteLine(path + nfilename);
         }
     }
 }
