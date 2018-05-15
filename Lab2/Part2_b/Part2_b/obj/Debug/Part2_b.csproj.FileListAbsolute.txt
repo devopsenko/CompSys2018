@@ -1,0 +1,7 @@
+C:\Users\sasha\Desktop\Study\КС\Lab2\Part2_b\Part2_b\bin\Debug\Part2_b.exe.config
+C:\Users\sasha\Desktop\Study\КС\Lab2\Part2_b\Part2_b\bin\Debug\Part2_b.exe
+C:\Users\sasha\Desktop\Study\КС\Lab2\Part2_b\Part2_b\bin\Debug\Part2_b.pdb
+C:\Users\sasha\Desktop\Study\КС\Lab2\Part2_b\Part2_b\obj\Debug\Part2_b.csprojAssemblyReference.cache
+C:\Users\sasha\Desktop\Study\КС\Lab2\Part2_b\Part2_b\obj\Debug\Part2_b.csproj.CoreCompileInputs.cache
+C:\Users\sasha\Desktop\Study\КС\Lab2\Part2_b\Part2_b\obj\Debug\Part2_b.exe
+C:\Users\sasha\Desktop\Study\КС\Lab2\Part2_b\Part2_b\obj\Debug\Part2_b.pdb
